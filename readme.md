@@ -5,7 +5,8 @@ This patch fixes several bugs that are present in the retail, North American ver
 2. A copy of this patch.
 3. About 1 GB of total space on your HDD.
 
-**Currently only the North American (US/Canada) version 1.0 may be patched.  There is a version 1.1 in this region, but it's fairly rare unless you've set out to find it.  </div>
+**Currently only the North American (US/Canada) version 1.0 may be patched.  There is a version 1.1 in this region, but it's fairly rare unless you've set out to find it.**
+
 ##Applying
 1. Run <i>gs1patcher.bat</i> to launch the patch dialog.  The message indicating an error loading lua-interface.lua can be ignored.
 2. Choose the version of the game you want to patch from the drop-down list.
@@ -20,7 +21,6 @@ Some patches you select may exclude or require others, these will be activated o
 7. The patcher will notify you of success or failure.  A log file will be created in the same directory as gs1patcher.bat and should be provided if you need support.
 
 #Patches Provided by Current Release
-
 ##Bribe Fix
 Konami allows you to dismiss notifications early by rapidly pressing buttons, but in the event they are skipped, an important check to see if the enemy should allow a bribe is bypassed.  This permits the player to bribe any enemy, including bosses.  This fix adds the required check to the button-mashing path.
 	
