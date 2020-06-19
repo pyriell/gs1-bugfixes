@@ -21,7 +21,7 @@ Some patches you select may exclude or require others, these will be activated o
 7. The patcher will notify you of success or failure.  A log file will be created in the same directory as gs1patcher.bat and should be provided if you need support.
 
 # Patches Provided by Current Release
-##Bribe Fix
+## Bribe Fix
 Konami allows you to dismiss notifications early by rapidly pressing buttons, but in the event they are skipped, an important check to see if the enemy should allow a bribe is bypassed.  This permits the player to bribe any enemy, including bosses.  This fix adds the required check to the button-mashing path.
 	
 ## Clay Guardian Fix
