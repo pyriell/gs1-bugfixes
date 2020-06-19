@@ -1,4 +1,4 @@
-# <i>Suikoden II/Genso Suikoden II</i> Bug Fix Patch
+# <i>Suikoden/Genso Suikoden</i> Bug Fix Patch
 This patch fixes several bugs that are present in the retail, North American version of <i>Suikoden I</i>.  All patches are optional, unless they are requirements for other patches you might choose to apply.  You can keep the infinite-use Escape Talismans while fixin the Earth Rune spells, if you like.
 ##Requirements
 1. A disc image of the original game in your preferred language*.  Files with .bin, .img, and .iso extensions may be supported, but the image must be plain with no additional headers or other changes that certain rippers or compression tools might introduce.  When in doubt, try to convert the image to a standard ISO image first.
@@ -19,7 +19,8 @@ Some patches you select may exclude or require others, these will be activated o
 6. When you are satisfied with your selections, click "Apply Patch" and wait for the process to finish.  A progress bar will show changes periodically.
 7. The patcher will notify you of success or failure.  A log file will be created in the same directory as gs1patcher.bat and should be provided if you need support.
 
-##Patches Provided by Current Release
+#Patches Provided by Current Release
+
 ##Bribe Fix
 Konami allows you to dismiss notifications early by rapidly pressing buttons, but in the event they are skipped, an important check to see if the enemy should allow a bribe is bypassed.  This permits the player to bribe any enemy, including bosses.  This fix adds the required check to the button-mashing path.
 	
